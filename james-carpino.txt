@@ -130,7 +130,21 @@ first you fork the repo, make the collaborator your TL, then clone the file and 
 Stretch Questions
 
 1. What is the difference between an inline element and a block element?
+inline elements do not force a new line to begin in the document flow. Block elements typically cause a line break to occur.
+block elements are usually structural, and inline elements are usually text based.
+
 2. What happens when an element is positioned absolutely? 
+The element's top, right, and left properties specify offsets form the edges of the element's containing block.
+it's also positioned relative to the nearest positioned ancestor.
+
 3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
+
 4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+block - article, header, footer.
+inline - a , textarea
+inline-block -- img 
+
 5. In your own words, explain the box model. What is the fix for the box model?
+the box model is the design and layout of the website when it is styled in CSS. The content is surrounded by padding, then the content/padding is surrounded by the border, and then the content/padding/border is surrounded by the margin. This allows us to decide where the content is going to be placed and how far/how it reacts with other objects.
+a fix that I found at this website: https://pressupinc.com/blog/2014/01/whats-wrong-css-box-model-fix/ for the box model is the box-sizing: border-box. The website says that this fix works by including padding and borders in the element's width. My best guess is that this allows you to change the size of the box that you are working in for your content. 
